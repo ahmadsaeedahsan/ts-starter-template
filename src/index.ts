@@ -1,7 +1,5 @@
-const names: string[] = ["Ahmad"];
+const names: string[] = [];
 
 const name = names[0];
 
-if (name !== undefined) {
-  console.log(name.toUpperCase());
-}
+console.log(name.toUpperCase());
